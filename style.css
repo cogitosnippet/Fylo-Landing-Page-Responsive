@@ -92,6 +92,12 @@ nav{
   background-color: var(--Bright_Blue);
   color: white;
   font-weight: 400;
+  transition: 0.5s;
+}
+
+.get-started:hover{
+  cursor: pointer;
+  opacity: 0.5;
 }
 
 .illustration2{
@@ -145,6 +151,11 @@ nav{
   display: flex;
   gap: 5px;
   border-bottom: 1px solid var(--Moderate_Cyan);
+}
+
+.working:hover{
+  cursor: pointer;
+  opacity: 0.5;
 }
 
 .working-para{
@@ -287,6 +298,12 @@ nav{
   width: 25%;
   padding: 15px 20px 15px 20px;
   margin-top: 10px;
+  transition: 0.5;
+}
+
+.early-access-buttton:hover{
+  cursor: pointer;
+  opacity: 0.5;
 }
 
 footer{
@@ -342,6 +359,11 @@ footer{
   display: flex;
   gap: 50px;
   margin-top: 50px;
+}
+
+.link-container p:hover{
+  cursor: pointer;
+  color: var(--Desaturated_Blue);
 }
 
 
